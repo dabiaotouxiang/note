@@ -1,0 +1,7 @@
+前几天在项目中使用kronos启动定时任务，不小心误删了领导的定时任务，后来排查原因，发现因为我们都用的他的django脚手架，这套脚手架基于django，但是有一个比较重要的一点，setting里面的SECRET_KEY是一个默认的值。
+
+而kronos里面正是通过这个SECRET_KEY来生成自己在crontab里面的识别码的
+
+我俩都没有改脚手架里默认的SECRET_KEY，因此kronos的识别码也一样。导致我加载定时任务的时候，把他的删了
+
+正常django中的SECRET_KEY会在startproject的时候生成新的，所以正常用django框架的时候不用担心这种问题。

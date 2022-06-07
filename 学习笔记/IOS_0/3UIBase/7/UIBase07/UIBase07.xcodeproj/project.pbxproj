@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D01E0C62839318E00339115 /* GroupBuyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E0C52839318E00339115 /* GroupBuyTableViewCell.xib */; };
+		4D01E0C92839332800339115 /* GroupBuyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0C82839332800339115 /* GroupBuyTableViewController.m */; };
+		4D01E0CC283934ED00339115 /* GroupBuyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0CB283934ED00339115 /* GroupBuyTableViewCell.m */; };
+		4D01E0D52839363800339115 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0D42839363800339115 /* Product.m */; };
+		4D01E0D92839453300339115 /* GroupBuyTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E0D82839453300339115 /* GroupBuyTableViewHeader.xib */; };
+		4D01E0DC2839477000339115 /* GroupBuyTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0DB2839477000339115 /* GroupBuyTableViewHeader.m */; };
+		4D01E0DE2839521200339115 /* GroupBuyTableViewFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E0DD2839521200339115 /* GroupBuyTableViewFooter.xib */; };
+		4D01E0E12839550500339115 /* GroupBuyTableViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0E02839550500339115 /* GroupBuyTableViewFooter.m */; };
+		4D01E0EA283962D800339115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0E9283962D800339115 /* AppDelegate.m */; };
+		4D01E0ED283962D800339115 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0EC283962D800339115 /* SceneDelegate.m */; };
+		4D01E0F0283962D800339115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0EF283962D800339115 /* ViewController.m */; };
+		4D01E0F3283962D800339115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E0F1283962D800339115 /* Main.storyboard */; };
+		4D01E0F5283962DA00339115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E0F4283962DA00339115 /* Assets.xcassets */; };
+		4D01E0F8283962DA00339115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E0F6283962DA00339115 /* LaunchScreen.storyboard */; };
+		4D01E0FB283962DA00339115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E0FA283962DA00339115 /* main.m */; };
+		4D01E1012839631300339115 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E1002839631300339115 /* statuses.plist */; };
+		4D01E10B2839647D00339115 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E10A2839647D00339115 /* CellModel.m */; };
+		4D01E10E2839690400339115 /* WBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E10D2839690400339115 /* WBTableViewController.m */; };
+		4D01E1112839710400339115 /* WBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E1102839710400339115 /* WBTableViewCell.m */; };
+		4D01E1142839741700339115 /* CellModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E1132839741700339115 /* CellModelFrame.m */; };
+		4D01E11D2839893100339115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E11C2839893100339115 /* AppDelegate.m */; };
+		4D01E1202839893100339115 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E11F2839893100339115 /* SceneDelegate.m */; };
+		4D01E1232839893100339115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E1222839893100339115 /* ViewController.m */; };
+		4D01E1262839893100339115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E1242839893100339115 /* Main.storyboard */; };
+		4D01E1282839893300339115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E1272839893300339115 /* Assets.xcassets */; };
+		4D01E12B2839893300339115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E1292839893300339115 /* LaunchScreen.storyboard */; };
+		4D01E12E2839893300339115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E12D2839893300339115 /* main.m */; };
+		4D01E1332839896C00339115 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D01E1322839896C00339115 /* tgs.plist */; };
+		4D01E13B28398A2B00339115 /* GBCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01E13A28398A2B00339115 /* GBCellModel.m */; };
+		4DC4603C28392E3C00D472DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4603B28392E3C00D472DB /* AppDelegate.m */; };
+		4DC4603F28392E3C00D472DB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4603E28392E3C00D472DB /* SceneDelegate.m */; };
+		4DC4604228392E3C00D472DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4604128392E3C00D472DB /* ViewController.m */; };
+		4DC4604528392E3C00D472DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC4604328392E3C00D472DB /* Main.storyboard */; };
+		4DC4604728392E3E00D472DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC4604628392E3E00D472DB /* Assets.xcassets */; };
+		4DC4604A28392E3E00D472DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC4604828392E3E00D472DB /* LaunchScreen.storyboard */; };
+		4DC4604D28392E3E00D472DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4604C28392E3E00D472DB /* main.m */; };
+		4DC4605228392E7C00D472DB /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC4605128392E7C00D472DB /* tgs.plist */; };
+		4DDCEB4A2839AAC000B7EE74 /* GBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB482839AAC000B7EE74 /* GBTableViewCell.m */; };
+		4DDCEB4B2839AAC000B7EE74 /* GBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB492839AAC000B7EE74 /* GBTableViewCell.xib */; };
+		4DDCEB4D2839B59C00B7EE74 /* TableFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB4C2839B59C00B7EE74 /* TableFooter.xib */; };
+		4DDCEB502839B5C700B7EE74 /* TableFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB4F2839B5C700B7EE74 /* TableFooter.m */; };
+		4DDCEB522839BB7400B7EE74 /* TableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB512839BB7400B7EE74 /* TableHeader.xib */; };
+		4DDCEB552839BB8700B7EE74 /* TableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB542839BB8700B7EE74 /* TableHeader.m */; };
+		4DDCEB5E2839C6C300B7EE74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB5D2839C6C300B7EE74 /* AppDelegate.m */; };
+		4DDCEB612839C6C300B7EE74 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB602839C6C300B7EE74 /* SceneDelegate.m */; };
+		4DDCEB642839C6C300B7EE74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB632839C6C300B7EE74 /* ViewController.m */; };
+		4DDCEB672839C6C300B7EE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB652839C6C300B7EE74 /* Main.storyboard */; };
+		4DDCEB692839C6C500B7EE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB682839C6C500B7EE74 /* Assets.xcassets */; };
+		4DDCEB6C2839C6C500B7EE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB6A2839C6C500B7EE74 /* LaunchScreen.storyboard */; };
+		4DDCEB6F2839C6C500B7EE74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB6E2839C6C500B7EE74 /* main.m */; };
+		4DDCEB742839C6DA00B7EE74 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DDCEB732839C6DA00B7EE74 /* statuses.plist */; };
+		4DDCEB7C2839C7E600B7EE74 /* WBStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB7B2839C7E600B7EE74 /* WBStatus.m */; };
+		4DDCEB7F2839C7F600B7EE74 /* WBStatusFrames.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB7E2839C7F600B7EE74 /* WBStatusFrames.m */; };
+		4DDCEB822839C82100B7EE74 /* WBTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB812839C82100B7EE74 /* WBTableCell.m */; };
+		4DDCEB852839C84000B7EE74 /* WBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCEB842839C84000B7EE74 /* WBTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D01E0C52839318E00339115 /* GroupBuyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupBuyTableViewCell.xib; sourceTree = "<group>"; };
+		4D01E0C72839332800339115 /* GroupBuyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupBuyTableViewController.h; sourceTree = "<group>"; };
+		4D01E0C82839332800339115 /* GroupBuyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuyTableViewController.m; sourceTree = "<group>"; };
+		4D01E0CA283934ED00339115 /* GroupBuyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupBuyTableViewCell.h; sourceTree = "<group>"; };
+		4D01E0CB283934ED00339115 /* GroupBuyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuyTableViewCell.m; sourceTree = "<group>"; };
+		4D01E0D32839363800339115 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		4D01E0D42839363800339115 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		4D01E0D82839453300339115 /* GroupBuyTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupBuyTableViewHeader.xib; sourceTree = "<group>"; };
+		4D01E0DA2839477000339115 /* GroupBuyTableViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupBuyTableViewHeader.h; sourceTree = "<group>"; };
+		4D01E0DB2839477000339115 /* GroupBuyTableViewHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuyTableViewHeader.m; sourceTree = "<group>"; };
+		4D01E0DD2839521200339115 /* GroupBuyTableViewFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupBuyTableViewFooter.xib; sourceTree = "<group>"; };
+		4D01E0DF2839550500339115 /* GroupBuyTableViewFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupBuyTableViewFooter.h; sourceTree = "<group>"; };
+		4D01E0E02839550500339115 /* GroupBuyTableViewFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuyTableViewFooter.m; sourceTree = "<group>"; };
+		4D01E0E6283962D800339115 /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D01E0E8283962D800339115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D01E0E9283962D800339115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D01E0EB283962D800339115 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4D01E0EC283962D800339115 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4D01E0EE283962D800339115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D01E0EF283962D800339115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D01E0F2283962D800339115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D01E0F4283962DA00339115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D01E0F7283962DA00339115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D01E0F9283962DA00339115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D01E0FA283962DA00339115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D01E1002839631300339115 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		4D01E1092839647D00339115 /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		4D01E10A2839647D00339115 /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		4D01E10C2839690400339115 /* WBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewController.h; sourceTree = "<group>"; };
+		4D01E10D2839690400339115 /* WBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewController.m; sourceTree = "<group>"; };
+		4D01E10F2839710400339115 /* WBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewCell.h; sourceTree = "<group>"; };
+		4D01E1102839710400339115 /* WBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewCell.m; sourceTree = "<group>"; };
+		4D01E1122839741700339115 /* CellModelFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModelFrame.h; sourceTree = "<group>"; };
+		4D01E1132839741700339115 /* CellModelFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModelFrame.m; sourceTree = "<group>"; };
+		4D01E1192839893100339115 /* GroupBuyRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuyRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D01E11B2839893100339115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D01E11C2839893100339115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D01E11E2839893100339115 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4D01E11F2839893100339115 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4D01E1212839893100339115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D01E1222839893100339115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D01E1252839893100339115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D01E1272839893300339115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D01E12A2839893300339115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D01E12C2839893300339115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D01E12D2839893300339115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D01E1322839896C00339115 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		4D01E13928398A2B00339115 /* GBCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBCellModel.h; sourceTree = "<group>"; };
+		4D01E13A28398A2B00339115 /* GBCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBCellModel.m; sourceTree = "<group>"; };
+		4DC4603828392E3C00D472DB /* GroupBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC4603A28392E3C00D472DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC4603B28392E3C00D472DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC4603D28392E3C00D472DB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4DC4603E28392E3C00D472DB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4DC4604028392E3C00D472DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC4604128392E3C00D472DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DC4604428392E3C00D472DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC4604628392E3E00D472DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC4604928392E3E00D472DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC4604B28392E3E00D472DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC4604C28392E3E00D472DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC4605128392E7C00D472DB /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		4DDCEB472839AAC000B7EE74 /* GBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBTableViewCell.h; sourceTree = "<group>"; };
+		4DDCEB482839AAC000B7EE74 /* GBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBTableViewCell.m; sourceTree = "<group>"; };
+		4DDCEB492839AAC000B7EE74 /* GBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GBTableViewCell.xib; sourceTree = "<group>"; };
+		4DDCEB4C2839B59C00B7EE74 /* TableFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFooter.xib; sourceTree = "<group>"; };
+		4DDCEB4E2839B5C700B7EE74 /* TableFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableFooter.h; sourceTree = "<group>"; };
+		4DDCEB4F2839B5C700B7EE74 /* TableFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableFooter.m; sourceTree = "<group>"; };
+		4DDCEB512839BB7400B7EE74 /* TableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableHeader.xib; sourceTree = "<group>"; };
+		4DDCEB532839BB8700B7EE74 /* TableHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableHeader.h; sourceTree = "<group>"; };
+		4DDCEB542839BB8700B7EE74 /* TableHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableHeader.m; sourceTree = "<group>"; };
+		4DDCEB5A2839C6C300B7EE74 /* WeiboRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDCEB5C2839C6C300B7EE74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DDCEB5D2839C6C300B7EE74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DDCEB5F2839C6C300B7EE74 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4DDCEB602839C6C300B7EE74 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4DDCEB622839C6C300B7EE74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DDCEB632839C6C300B7EE74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DDCEB662839C6C300B7EE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DDCEB682839C6C500B7EE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDCEB6B2839C6C500B7EE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DDCEB6D2839C6C500B7EE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDCEB6E2839C6C500B7EE74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DDCEB732839C6DA00B7EE74 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		4DDCEB7A2839C7E600B7EE74 /* WBStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatus.h; sourceTree = "<group>"; };
+		4DDCEB7B2839C7E600B7EE74 /* WBStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatus.m; sourceTree = "<group>"; };
+		4DDCEB7D2839C7F600B7EE74 /* WBStatusFrames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatusFrames.h; sourceTree = "<group>"; };
+		4DDCEB7E2839C7F600B7EE74 /* WBStatusFrames.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatusFrames.m; sourceTree = "<group>"; };
+		4DDCEB802839C82100B7EE74 /* WBTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableCell.h; sourceTree = "<group>"; };
+		4DDCEB812839C82100B7EE74 /* WBTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableCell.m; sourceTree = "<group>"; };
+		4DDCEB832839C84000B7EE74 /* WBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewController.h; sourceTree = "<group>"; };
+		4DDCEB842839C84000B7EE74 /* WBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D01E0E3283962D800339115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D01E1162839893100339115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC4603528392E3C00D472DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDCEB572839C6C300B7EE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D01E0CD2839354000339115 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0C82839332800339115 /* GroupBuyTableViewController.m */,
+				4D01E0C72839332800339115 /* GroupBuyTableViewController.h */,
+				4DC4604028392E3C00D472DB /* ViewController.h */,
+				4DC4604128392E3C00D472DB /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D01E0CF2839359D00339115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0CA283934ED00339115 /* GroupBuyTableViewCell.h */,
+				4D01E0CB283934ED00339115 /* GroupBuyTableViewCell.m */,
+				4DC4604828392E3E00D472DB /* LaunchScreen.storyboard */,
+				4DC4604328392E3C00D472DB /* Main.storyboard */,
+				4D01E0C52839318E00339115 /* GroupBuyTableViewCell.xib */,
+				4D01E0D82839453300339115 /* GroupBuyTableViewHeader.xib */,
+				4D01E0DA2839477000339115 /* GroupBuyTableViewHeader.h */,
+				4D01E0DB2839477000339115 /* GroupBuyTableViewHeader.m */,
+				4D01E0DD2839521200339115 /* GroupBuyTableViewFooter.xib */,
+				4D01E0DF2839550500339115 /* GroupBuyTableViewFooter.h */,
+				4D01E0E02839550500339115 /* GroupBuyTableViewFooter.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D01E0D0283935D800339115 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC4605128392E7C00D472DB /* tgs.plist */,
+				4DC4604628392E3E00D472DB /* Assets.xcassets */,
+				4DC4604B28392E3E00D472DB /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		4D01E0D1283935F200339115 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4DC4603D28392E3C00D472DB /* SceneDelegate.h */,
+				4DC4603E28392E3C00D472DB /* SceneDelegate.m */,
+				4DC4603A28392E3C00D472DB /* AppDelegate.h */,
+				4DC4603B28392E3C00D472DB /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4D01E0D22839360A00339115 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0D32839363800339115 /* Product.h */,
+				4D01E0D42839363800339115 /* Product.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4D01E0E7283962D800339115 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E1052839636200339115 /* Controllers */,
+				4D01E1042839635C00339115 /* Views */,
+				4D01E1032839635300339115 /* Others */,
+				4D01E1022839634A00339115 /* Models */,
+				4D01E0FF283962E900339115 /* Support Files */,
+				4D01E0FA283962DA00339115 /* main.m */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		4D01E0FF283962E900339115 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E1002839631300339115 /* statuses.plist */,
+				4D01E0F9283962DA00339115 /* Info.plist */,
+				4D01E0F4283962DA00339115 /* Assets.xcassets */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		4D01E1022839634A00339115 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E1092839647D00339115 /* CellModel.h */,
+				4D01E10A2839647D00339115 /* CellModel.m */,
+				4D01E1122839741700339115 /* CellModelFrame.h */,
+				4D01E1132839741700339115 /* CellModelFrame.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4D01E1032839635300339115 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0E8283962D800339115 /* AppDelegate.h */,
+				4D01E0E9283962D800339115 /* AppDelegate.m */,
+				4D01E0EB283962D800339115 /* SceneDelegate.h */,
+				4D01E0EC283962D800339115 /* SceneDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4D01E1042839635C00339115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0F1283962D800339115 /* Main.storyboard */,
+				4D01E0F6283962DA00339115 /* LaunchScreen.storyboard */,
+				4D01E10F2839710400339115 /* WBTableViewCell.h */,
+				4D01E1102839710400339115 /* WBTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D01E1052839636200339115 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0EE283962D800339115 /* ViewController.h */,
+				4D01E0EF283962D800339115 /* ViewController.m */,
+				4D01E10C2839690400339115 /* WBTableViewController.h */,
+				4D01E10D2839690400339115 /* WBTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D01E11A2839893100339115 /* GroupBuyRepeat */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E138283989B500339115 /* Support Files */,
+				4D01E137283989A900339115 /* Others */,
+				4D01E1362839899D00339115 /* Controllers */,
+				4D01E1352839899500339115 /* Views */,
+				4D01E1342839898C00339115 /* Models */,
+				4D01E12D2839893300339115 /* main.m */,
+			);
+			path = GroupBuyRepeat;
+			sourceTree = "<group>";
+		};
+		4D01E1342839898C00339115 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E13928398A2B00339115 /* GBCellModel.h */,
+				4D01E13A28398A2B00339115 /* GBCellModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4D01E1352839899500339115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E1242839893100339115 /* Main.storyboard */,
+				4D01E1292839893300339115 /* LaunchScreen.storyboard */,
+				4DDCEB472839AAC000B7EE74 /* GBTableViewCell.h */,
+				4DDCEB482839AAC000B7EE74 /* GBTableViewCell.m */,
+				4DDCEB492839AAC000B7EE74 /* GBTableViewCell.xib */,
+				4DDCEB4C2839B59C00B7EE74 /* TableFooter.xib */,
+				4DDCEB4E2839B5C700B7EE74 /* TableFooter.h */,
+				4DDCEB4F2839B5C700B7EE74 /* TableFooter.m */,
+				4DDCEB512839BB7400B7EE74 /* TableHeader.xib */,
+				4DDCEB532839BB8700B7EE74 /* TableHeader.h */,
+				4DDCEB542839BB8700B7EE74 /* TableHeader.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D01E1362839899D00339115 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E1212839893100339115 /* ViewController.h */,
+				4D01E1222839893100339115 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D01E137283989A900339115 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E11B2839893100339115 /* AppDelegate.h */,
+				4D01E11C2839893100339115 /* AppDelegate.m */,
+				4D01E11E2839893100339115 /* SceneDelegate.h */,
+				4D01E11F2839893100339115 /* SceneDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4D01E138283989B500339115 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E1272839893300339115 /* Assets.xcassets */,
+				4D01E1322839896C00339115 /* tgs.plist */,
+				4D01E12C2839893300339115 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		4DC4600F28392E0F00D472DB = {
+			isa = PBXGroup;
+			children = (
+				4DC4603928392E3C00D472DB /* GroupBuy */,
+				4D01E0E7283962D800339115 /* Weibo */,
+				4D01E11A2839893100339115 /* GroupBuyRepeat */,
+				4DDCEB5B2839C6C300B7EE74 /* WeiboRepeat */,
+				4DC4601928392E0F00D472DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC4601928392E0F00D472DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC4603828392E3C00D472DB /* GroupBuy.app */,
+				4D01E0E6283962D800339115 /* Weibo.app */,
+				4D01E1192839893100339115 /* GroupBuyRepeat.app */,
+				4DDCEB5A2839C6C300B7EE74 /* WeiboRepeat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC4603928392E3C00D472DB /* GroupBuy */ = {
+			isa = PBXGroup;
+			children = (
+				4D01E0D22839360A00339115 /* Models */,
+				4D01E0D1283935F200339115 /* Others */,
+				4D01E0D0283935D800339115 /* Support Files */,
+				4D01E0CD2839354000339115 /* Controllers */,
+				4D01E0CF2839359D00339115 /* Views */,
+				4DC4604C28392E3E00D472DB /* main.m */,
+			);
+			path = GroupBuy;
+			sourceTree = "<group>";
+		};
+		4DDCEB5B2839C6C300B7EE74 /* WeiboRepeat */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCEB792839C72C00B7EE74 /* Support Files */,
+				4DDCEB782839C72400B7EE74 /* Controllers */,
+				4DDCEB772839C71F00B7EE74 /* Views */,
+				4DDCEB762839C71600B7EE74 /* Models */,
+				4DDCEB752839C6FA00B7EE74 /* Others */,
+				4DDCEB6E2839C6C500B7EE74 /* main.m */,
+			);
+			path = WeiboRepeat;
+			sourceTree = "<group>";
+		};
+		4DDCEB752839C6FA00B7EE74 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCEB5C2839C6C300B7EE74 /* AppDelegate.h */,
+				4DDCEB5D2839C6C300B7EE74 /* AppDelegate.m */,
+				4DDCEB5F2839C6C300B7EE74 /* SceneDelegate.h */,
+				4DDCEB602839C6C300B7EE74 /* SceneDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4DDCEB762839C71600B7EE74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCEB7A2839C7E600B7EE74 /* WBStatus.h */,
+				4DDCEB7B2839C7E600B7EE74 /* WBStatus.m */,
+				4DDCEB7D2839C7F600B7EE74 /* WBStatusFrames.h */,
+				4DDCEB7E2839C7F600B7EE74 /* WBStatusFrames.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4DDCEB772839C71F00B7EE74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCEB652839C6C300B7EE74 /* Main.storyboard */,
+				4DDCEB6A2839C6C500B7EE74 /* LaunchScreen.storyboard */,
+				4DDCEB802839C82100B7EE74 /* WBTableCell.h */,
+				4DDCEB812839C82100B7EE74 /* WBTableCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4DDCEB782839C72400B7EE74 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCEB622839C6C300B7EE74 /* ViewController.h */,
+				4DDCEB632839C6C300B7EE74 /* ViewController.m */,
+				4DDCEB832839C84000B7EE74 /* WBTableViewController.h */,
+				4DDCEB842839C84000B7EE74 /* WBTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4DDCEB792839C72C00B7EE74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCEB732839C6DA00B7EE74 /* statuses.plist */,
+				4DDCEB6D2839C6C500B7EE74 /* Info.plist */,
+				4DDCEB682839C6C500B7EE74 /* Assets.xcassets */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D01E0E5283962D800339115 /* Weibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D01E0FC283962DA00339115 /* Build configuration list for PBXNativeTarget "Weibo" */;
+			buildPhases = (
+				4D01E0E2283962D800339115 /* Sources */,
+				4D01E0E3283962D800339115 /* Frameworks */,
+				4D01E0E4283962D800339115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weibo;
+			productName = Weibo;
+			productReference = 4D01E0E6283962D800339115 /* Weibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D01E1182839893100339115 /* GroupBuyRepeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D01E1312839893300339115 /* Build configuration list for PBXNativeTarget "GroupBuyRepeat" */;
+			buildPhases = (
+				4D01E1152839893100339115 /* Sources */,
+				4D01E1162839893100339115 /* Frameworks */,
+				4D01E1172839893100339115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupBuyRepeat;
+			productName = GroupBuyRepeat;
+			productReference = 4D01E1192839893100339115 /* GroupBuyRepeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC4603728392E3C00D472DB /* GroupBuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC4604E28392E3E00D472DB /* Build configuration list for PBXNativeTarget "GroupBuy" */;
+			buildPhases = (
+				4DC4603428392E3C00D472DB /* Sources */,
+				4DC4603528392E3C00D472DB /* Frameworks */,
+				4DC4603628392E3C00D472DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupBuy;
+			productName = GroupBuy;
+			productReference = 4DC4603828392E3C00D472DB /* GroupBuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DDCEB592839C6C300B7EE74 /* WeiboRepeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDCEB702839C6C500B7EE74 /* Build configuration list for PBXNativeTarget "WeiboRepeat" */;
+			buildPhases = (
+				4DDCEB562839C6C300B7EE74 /* Sources */,
+				4DDCEB572839C6C300B7EE74 /* Frameworks */,
+				4DDCEB582839C6C300B7EE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiboRepeat;
+			productName = WeiboRepeat;
+			productReference = 4DDCEB5A2839C6C300B7EE74 /* WeiboRepeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC4601028392E0F00D472DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4D01E0E5283962D800339115 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4D01E1182839893100339115 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4DC4603728392E3C00D472DB = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4DDCEB592839C6C300B7EE74 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 4DC4601328392E0F00D472DB /* Build configuration list for PBXProject "UIBase07" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC4600F28392E0F00D472DB;
+			productRefGroup = 4DC4601928392E0F00D472DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC4603728392E3C00D472DB /* GroupBuy */,
+				4D01E0E5283962D800339115 /* Weibo */,
+				4D01E1182839893100339115 /* GroupBuyRepeat */,
+				4DDCEB592839C6C300B7EE74 /* WeiboRepeat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D01E0E4283962D800339115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D01E1012839631300339115 /* statuses.plist in Resources */,
+				4D01E0F8283962DA00339115 /* LaunchScreen.storyboard in Resources */,
+				4D01E0F5283962DA00339115 /* Assets.xcassets in Resources */,
+				4D01E0F3283962D800339115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D01E1172839893100339115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCEB4B2839AAC000B7EE74 /* GBTableViewCell.xib in Resources */,
+				4DDCEB4D2839B59C00B7EE74 /* TableFooter.xib in Resources */,
+				4DDCEB522839BB7400B7EE74 /* TableHeader.xib in Resources */,
+				4D01E12B2839893300339115 /* LaunchScreen.storyboard in Resources */,
+				4D01E1332839896C00339115 /* tgs.plist in Resources */,
+				4D01E1282839893300339115 /* Assets.xcassets in Resources */,
+				4D01E1262839893100339115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC4603628392E3C00D472DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D01E0C62839318E00339115 /* GroupBuyTableViewCell.xib in Resources */,
+				4DC4604A28392E3E00D472DB /* LaunchScreen.storyboard in Resources */,
+				4DC4605228392E7C00D472DB /* tgs.plist in Resources */,
+				4D01E0D92839453300339115 /* GroupBuyTableViewHeader.xib in Resources */,
+				4D01E0DE2839521200339115 /* GroupBuyTableViewFooter.xib in Resources */,
+				4DC4604728392E3E00D472DB /* Assets.xcassets in Resources */,
+				4DC4604528392E3C00D472DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDCEB582839C6C300B7EE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCEB742839C6DA00B7EE74 /* statuses.plist in Resources */,
+				4DDCEB6C2839C6C500B7EE74 /* LaunchScreen.storyboard in Resources */,
+				4DDCEB692839C6C500B7EE74 /* Assets.xcassets in Resources */,
+				4DDCEB672839C6C300B7EE74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D01E0E2283962D800339115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D01E0F0283962D800339115 /* ViewController.m in Sources */,
+				4D01E1112839710400339115 /* WBTableViewCell.m in Sources */,
+				4D01E0EA283962D800339115 /* AppDelegate.m in Sources */,
+				4D01E10E2839690400339115 /* WBTableViewController.m in Sources */,
+				4D01E0FB283962DA00339115 /* main.m in Sources */,
+				4D01E10B2839647D00339115 /* CellModel.m in Sources */,
+				4D01E0ED283962D800339115 /* SceneDelegate.m in Sources */,
+				4D01E1142839741700339115 /* CellModelFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D01E1152839893100339115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCEB4A2839AAC000B7EE74 /* GBTableViewCell.m in Sources */,
+				4DDCEB552839BB8700B7EE74 /* TableHeader.m in Sources */,
+				4DDCEB502839B5C700B7EE74 /* TableFooter.m in Sources */,
+				4D01E1232839893100339115 /* ViewController.m in Sources */,
+				4D01E11D2839893100339115 /* AppDelegate.m in Sources */,
+				4D01E13B28398A2B00339115 /* GBCellModel.m in Sources */,
+				4D01E12E2839893300339115 /* main.m in Sources */,
+				4D01E1202839893100339115 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC4603428392E3C00D472DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D01E0D52839363800339115 /* Product.m in Sources */,
+				4DC4604228392E3C00D472DB /* ViewController.m in Sources */,
+				4DC4603C28392E3C00D472DB /* AppDelegate.m in Sources */,
+				4D01E0CC283934ED00339115 /* GroupBuyTableViewCell.m in Sources */,
+				4D01E0C92839332800339115 /* GroupBuyTableViewController.m in Sources */,
+				4D01E0DC2839477000339115 /* GroupBuyTableViewHeader.m in Sources */,
+				4DC4604D28392E3E00D472DB /* main.m in Sources */,
+				4DC4603F28392E3C00D472DB /* SceneDelegate.m in Sources */,
+				4D01E0E12839550500339115 /* GroupBuyTableViewFooter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDCEB562839C6C300B7EE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCEB642839C6C300B7EE74 /* ViewController.m in Sources */,
+				4DDCEB7C2839C7E600B7EE74 /* WBStatus.m in Sources */,
+				4DDCEB852839C84000B7EE74 /* WBTableViewController.m in Sources */,
+				4DDCEB5E2839C6C300B7EE74 /* AppDelegate.m in Sources */,
+				4DDCEB6F2839C6C500B7EE74 /* main.m in Sources */,
+				4DDCEB822839C82100B7EE74 /* WBTableCell.m in Sources */,
+				4DDCEB7F2839C7F600B7EE74 /* WBStatusFrames.m in Sources */,
+				4DDCEB612839C6C300B7EE74 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D01E0F1283962D800339115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D01E0F2283962D800339115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D01E0F6283962DA00339115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D01E0F7283962DA00339115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4D01E1242839893100339115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D01E1252839893100339115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D01E1292839893300339115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D01E12A2839893300339115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC4604328392E3C00D472DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC4604428392E3C00D472DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC4604828392E3E00D472DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC4604928392E3E00D472DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDCEB652839C6C300B7EE74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDCEB662839C6C300B7EE74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDCEB6A2839C6C500B7EE74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDCEB6B2839C6C500B7EE74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D01E0FD283962DA00339115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weibo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.Weibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D01E0FE283962DA00339115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weibo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.Weibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D01E12F2839893300339115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupBuyRepeat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.GroupBuyRepeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D01E1302839893300339115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupBuyRepeat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.GroupBuyRepeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DC4602F28392E1100D472DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DC4603028392E1100D472DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC4604F28392E3E00D472DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupBuy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.GroupBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC4605028392E3E00D472DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupBuy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.GroupBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DDCEB712839C6C500B7EE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeiboRepeat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.WeiboRepeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DDCEB722839C6C500B7EE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeiboRepeat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsb.WeiboRepeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D01E0FC283962DA00339115 /* Build configuration list for PBXNativeTarget "Weibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D01E0FD283962DA00339115 /* Debug */,
+				4D01E0FE283962DA00339115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D01E1312839893300339115 /* Build configuration list for PBXNativeTarget "GroupBuyRepeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D01E12F2839893300339115 /* Debug */,
+				4D01E1302839893300339115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC4601328392E0F00D472DB /* Build configuration list for PBXProject "UIBase07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC4602F28392E1100D472DB /* Debug */,
+				4DC4603028392E1100D472DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC4604E28392E3E00D472DB /* Build configuration list for PBXNativeTarget "GroupBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC4604F28392E3E00D472DB /* Debug */,
+				4DC4605028392E3E00D472DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDCEB702839C6C500B7EE74 /* Build configuration list for PBXNativeTarget "WeiboRepeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDCEB712839C6C500B7EE74 /* Debug */,
+				4DDCEB722839C6C500B7EE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC4601028392E0F00D472DB /* Project object */;
+}

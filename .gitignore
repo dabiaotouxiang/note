@@ -1,0 +1,9 @@
+.vscode/
+.DS_Store
+*.ipa
+*.app/
+*.o
+*.out
+.idea/
+env/
+*.pyc

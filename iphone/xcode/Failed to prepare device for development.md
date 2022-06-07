@@ -1,0 +1,1 @@
+1. 遇到这个 Failed to prepare device for development 可以尝试重启手机来解决

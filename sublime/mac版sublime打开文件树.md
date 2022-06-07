@@ -1,0 +1,1 @@
+View ->Side Bar ->Show Side Bar

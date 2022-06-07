@@ -1,0 +1,1 @@
+pip install modulename -i https://pypi.douban.com/simple

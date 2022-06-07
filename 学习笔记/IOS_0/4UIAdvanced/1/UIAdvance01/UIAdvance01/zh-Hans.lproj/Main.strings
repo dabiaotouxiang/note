@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "水果"; ObjectID = "Om0-um-Aoa"; */
+"Om0-um-Aoa.text" = "水果";
+
+/* Class = "UILabel"; text = "点餐系统"; ObjectID = "ZJV-AE-WRY"; */
+"ZJV-AE-WRY.text" = "点餐系统";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fPG-TX-eGF"; */
+"fPG-TX-eGF.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "随机点餐"; ObjectID = "kNl-mY-YdA"; */
+"kNl-mY-YdA.normalTitle" = "随机点餐";
+
+/* Class = "UILabel"; text = "主菜"; ObjectID = "nDM-h2-7gh"; */
+"nDM-h2-7gh.text" = "主菜";
+
+/* Class = "UILabel"; text = "饮料"; ObjectID = "r4r-uE-Lzj"; */
+"r4r-uE-Lzj.text" = "饮料";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wcK-xq-0Ks"; */
+"wcK-xq-0Ks.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wyx-9t-Zfz"; */
+"wyx-9t-Zfz.text" = "Label";

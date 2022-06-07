@@ -1,0 +1,1 @@
+在settings里面搜索title bar style ，并设置为custom
