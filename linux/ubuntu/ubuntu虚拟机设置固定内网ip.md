@@ -13,7 +13,9 @@
             ens33:
                 dhcp4: no
                 addresses: [192.168.31.190/24]
-                gateway4: 192.168.31.1
+                routes:
+                    - to: default
+                      via: 192.168.1.1
                 nameservers:
                     addresses: [192.168.31.1]
         version: 2
