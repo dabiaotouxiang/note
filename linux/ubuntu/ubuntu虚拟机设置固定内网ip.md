@@ -1,5 +1,5 @@
 1. ubuntu 版本 20.0.4 
-2. 在virtualbox和vmware上都经过了测试
+2. 在virtualbox和vmware上都经过了测试，网卡均为桥接模式
 3. Ubuntu 20.04 配置网络，默认使用 netplan 方式进行设置
 4. netplan 方式的配置为 yaml 格式
     ```
