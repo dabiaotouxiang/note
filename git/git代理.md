@@ -19,3 +19,8 @@ git config --global https.proxy socks5://127.0.0.1:1080
 Host github.com
 ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
 ```
+5. windows下
+```
+Host github.com
+ProxyCommand connect -S 127.0.0.1:1080 %h %p
+```
