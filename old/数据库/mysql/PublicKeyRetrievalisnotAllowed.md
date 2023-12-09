@@ -1,1 +1,0 @@
-在dbeaver的连接设置里面，将allowPublicKeyRetrieval设置为true
