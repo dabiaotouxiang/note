@@ -1,1 +1,0 @@
-1. frida脱壳的去看info.plist
